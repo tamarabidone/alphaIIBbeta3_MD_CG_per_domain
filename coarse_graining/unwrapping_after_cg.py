@@ -17,37 +17,23 @@ neighbors = [4, 3, 2, 1, 0, 7, 6, 5, 8, 9, 10, 11, 12, 13, 14]
 for index in range(len(INPUT_TRR_FILES)):
 	u = mda.Universe(INPUT_TRR_FILES[index])
 	protein = u.select_atoms("all")
-	print(len(u.trajectory))
 	with mda.Writer(OUTPUT_TRR_FILES[index], n_atoms=protein.n_atoms) as W:
-		# for ts in tqdm(u.trajectory):
-		# u.dimensions[:3] = np.array([1000000, 1000000, 1000000])
 		for ts in u.trajectory:
 			# ts.dimensions[:3]*=1000
 			dims = ts.dimensions[:3]
 			unit = np.identity(3)	
-			# print(protein.atoms.positions)
 			for index in range(protein.n_atoms-1):
-				# print(index)
 				ri1 = protein.atoms[neighbors[index+1]].position
 				ri = protein.atoms[neighbors[index]].position
-				# print(ri)
-				# print(ri1)
-				# print()
 				a = AtomGroup([protein.atoms[neighbors[index+1]]])
 				for i in range(3):
 					while ri1[i]-ri[i] > dims[i]/2:
-						# print("-")
-						# print()
 						a.translate(-np.dot(dims[i], unit[i]))
 						ri1[i] -= dims[i]
 					while ri1[i]-ri[i] < -dims[i]/2:
-						# print("+")
-						# print()
 						a.translate(np.dot(dims[i], unit[i]))
 						ri1[i] += dims[i]
-			# print(protein.atoms.positions)
 			cog = protein.center_of_geometry()
-			print(cog)
 			for i in range(3):
 				while cog[i] > dims[i]/2:
 					protein.translate(-np.dot(dims[i], unit[i]))

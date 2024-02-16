@@ -1,0 +1,31 @@
+# VARIABLES
+variable fname index bent_broken_3_merged.txt
+variable xyzname index bent_broken_3_merged.xyz
+variable simname index bent_broken_3_merged
+
+print "Seed 1: ${seed1}"
+
+# Initialization
+units		real
+boundary	f f f
+atom_style	molecular
+pair_style  none
+log 		log.${simname}.txt
+
+bond_style      harmonic
+read_data	${fname}
+
+neigh_modify	every 100 check yes
+comm_modify cutoff 300.0
+
+timestep 100
+
+group 1 type 1
+
+fix 1 1 brownian 310.0 ${seed1} gamma_t 20.0
+
+dump 1 all xyz 1000 ${xyzname}
+
+run       1000000000
+
+print "All done"

@@ -1,0 +1,12 @@
+int1_bsasa/buried_sasa_int_betaI-hybrid.txt
+int1_bsasa/buried_sasa_int_beta_propeller-betaI.txt
+int1_bsasa/buried_sasa_int_beta_propeller-Thigh.txt
+int1_bsasa/buried_sasa_int_calf_1-calf_2.txt
+int1_bsasa/buried_sasa_int_calf_2-beta_propeller.txt
+int1_bsasa/buried_sasa_int_E1-E2.txt
+int1_bsasa/buried_sasa_int_E2-E3.txt
+int1_bsasa/buried_sasa_int_E3-E4.txt
+int1_bsasa/buried_sasa_int_E4-beta_TD.txt
+int1_bsasa/buried_sasa_int_hybrid-psi.txt
+int1_bsasa/buried_sasa_int_psi-E1.txt
+int1_bsasa/buried_sasa_int_Thigh-calf_1.txt

@@ -1,0 +1,12 @@
+bent_rg/Domain_10_rg.txt
+bent_rg/Domain_11_rg.txt
+bent_rg/Domain_12_rg.txt
+bent_rg/Domain_1_rg.txt
+bent_rg/Domain_2_rg.txt
+bent_rg/Domain_3_rg.txt
+bent_rg/Domain_4_rg.txt
+bent_rg/Domain_5_rg.txt
+bent_rg/Domain_6_rg.txt
+bent_rg/Domain_7_rg.txt
+bent_rg/Domain_8_rg.txt
+bent_rg/Domain_9_rg.txt

@@ -1,0 +1,103 @@
+# This file was created Wed Jan 17 23:33:36 2024
+# Created by:
+#                :-) GROMACS - gmx rmsf, 2022.5-plumed_2.8.2 (-:
+# 
+# Executable:   /uufs/chpc.utah.edu/common/home/u6048150/spack/local/builds/linux-rocky8-broadwell/gcc-11.2.0/gromacs-2022.5-db2udoeezupcayxuyfnav4ehksa2dw5w/bin/gmx
+# Data prefix:  /uufs/chpc.utah.edu/common/home/u6048150/spack/local/builds/linux-rocky8-broadwell/gcc-11.2.0/gromacs-2022.5-db2udoeezupcayxuyfnav4ehksa2dw5w
+# Working dir:  /uufs/chpc.utah.edu/common/home/bidone-group3/onkarj/bent_isolated_domains_replica_3/Domain_13_Beta_T
+# Command line:
+#   gmx rmsf -s proteinB13.pdb -f fit_test.xtc -res -o ca_rmsf_Domain_13_Beta_T_Replica_3.xvg
+# gmx rmsf is part of G R O M A C S:
+#
+# Great Red Owns Many ACres of Sand 
+#
+@    title "RMS fluctuation"
+@    xaxis  label "Residue"
+@    yaxis  label "(nm)"
+@TYPE xy
+ 1613   0.4724
+ 1614   0.2994
+ 1615   0.2031
+ 1616   0.1610
+ 1617   0.1754
+ 1618   0.1882
+ 1619   0.1463
+ 1620   0.1322
+ 1621   0.1688
+ 1622   0.1712
+ 1623   0.1418
+ 1624   0.1696
+ 1625   0.2037
+ 1626   0.2132
+ 1627   0.2382
+ 1628   0.2874
+ 1629   0.2832
+ 1630   0.3538
+ 1631   0.4421
+ 1632   0.4966
+ 1633   0.5183
+ 1634   0.5789
+ 1635   0.6240
+ 1636   0.6457
+ 1637   0.6037
+ 1638   0.4749
+ 1639   0.4458
+ 1640   0.3582
+ 1641   0.2773
+ 1642   0.2631
+ 1643   0.2477
+ 1644   0.2258
+ 1645   0.1781
+ 1646   0.1662
+ 1647   0.1424
+ 1648   0.1361
+ 1649   0.1457
+ 1650   0.1315
+ 1651   0.1443
+ 1652   0.1351
+ 1653   0.1242
+ 1654   0.1851
+ 1655   0.2058
+ 1656   0.2871
+ 1657   0.2983
+ 1658   0.2469
+ 1659   0.2125
+ 1660   0.1170
+ 1661   0.0977
+ 1662   0.0889
+ 1663   0.1028
+ 1664   0.1315
+ 1665   0.1388
+ 1666   0.1491
+ 1667   0.1793
+ 1668   0.2280
+ 1669   0.2249
+ 1670   0.1989
+ 1671   0.1910
+ 1672   0.1505
+ 1673   0.1124
+ 1674   0.0864
+ 1675   0.0855
+ 1676   0.0779
+ 1677   0.1014
+ 1678   0.1381
+ 1679   0.2724
+ 1680   0.2945
+ 1681   0.4207
+ 1682   0.3752
+ 1683   0.2835
+ 1684   0.2047
+ 1685   0.1701
+ 1686   0.1273
+ 1687   0.1066
+ 1688   0.0937
+ 1689   0.0998
+ 1690   0.1028
+ 1691   0.1425
+ 1692   0.1521
+ 1693   0.1564
+ 1694   0.2150
+ 1695   0.2841
+ 1696   0.2874
+ 1697   0.4404
+ 1698   0.5899

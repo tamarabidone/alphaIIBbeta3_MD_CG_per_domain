@@ -1,0 +1,67 @@
+# This file was created Wed Jan 17 23:35:10 2024
+# Created by:
+#                :-) GROMACS - gmx rmsf, 2022.5-plumed_2.8.2 (-:
+# 
+# Executable:   /uufs/chpc.utah.edu/common/home/u6048150/spack/local/builds/linux-rocky8-broadwell/gcc-11.2.0/gromacs-2022.5-db2udoeezupcayxuyfnav4ehksa2dw5w/bin/gmx
+# Data prefix:  /uufs/chpc.utah.edu/common/home/u6048150/spack/local/builds/linux-rocky8-broadwell/gcc-11.2.0/gromacs-2022.5-db2udoeezupcayxuyfnav4ehksa2dw5w
+# Working dir:  /uufs/chpc.utah.edu/common/home/bidone-group3/onkarj/bent_isolated_domains_replica_2/Domain_10_E2
+# Command line:
+#   gmx rmsf -s proteinB10.pdb -f fit_test.xtc -res -o ca_rmsf_Domain_10_E2_Replica_2.xvg
+# gmx rmsf is part of G R O M A C S:
+#
+# Gallium Rubidium Oxygen Manganese Argon Carbon Silicon
+#
+@    title "RMS fluctuation"
+@    xaxis  label "Residue"
+@    yaxis  label "(nm)"
+@TYPE xy
+ 1484   1.4894
+ 1485   1.3383
+ 1486   1.2417
+ 1487   1.1269
+ 1488   1.0815
+ 1489   1.0374
+ 1490   1.0122
+ 1491   1.0190
+ 1492   1.0191
+ 1493   1.0308
+ 1494   0.9769
+ 1495   0.9579
+ 1496   0.9434
+ 1497   0.9084
+ 1498   0.9433
+ 1499   0.8754
+ 1500   0.7267
+ 1501   0.6829
+ 1502   0.7418
+ 1503   0.8266
+ 1504   0.9294
+ 1505   1.0646
+ 1506   1.1273
+ 1507   1.2720
+ 1508   1.3202
+ 1509   1.2746
+ 1510   1.2336
+ 1511   1.2126
+ 1512   1.1457
+ 1513   1.0261
+ 1514   0.8864
+ 1515   0.8549
+ 1516   0.8971
+ 1517   0.9419
+ 1518   0.9753
+ 1519   1.0184
+ 1520   1.1639
+ 1521   1.1828
+ 1522   1.0621
+ 1523   0.9378
+ 1524   0.8201
+ 1525   0.7604
+ 1526   0.8051
+ 1527   0.8713
+ 1528   0.8842
+ 1529   0.8486
+ 1530   0.9919
+ 1531   1.1354
+ 1532   1.3234
+ 1533   1.5419

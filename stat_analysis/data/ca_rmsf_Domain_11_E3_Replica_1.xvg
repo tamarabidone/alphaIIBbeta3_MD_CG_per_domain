@@ -1,0 +1,52 @@
+# This file was created Mon Oct  2 21:53:08 2023
+# Created by:
+#                :-) GROMACS - gmx rmsf, 2022.5-plumed_2.8.2 (-:
+# 
+# Executable:   /uufs/chpc.utah.edu/common/home/u6048150/spack/local/builds/linux-rocky8-broadwell/gcc-11.2.0/gromacs-2022.5-db2udoeezupcayxuyfnav4ehksa2dw5w/bin/gmx
+# Data prefix:  /uufs/chpc.utah.edu/common/home/u6048150/spack/local/builds/linux-rocky8-broadwell/gcc-11.2.0/gromacs-2022.5-db2udoeezupcayxuyfnav4ehksa2dw5w
+# Working dir:  /uufs/chpc.utah.edu/common/home/u1266084/Downloads/Per Domain MD Simulation/Plot Generations/Single Domain Analysis/Domain 11 E3
+# Command line:
+#   gmx rmsf -s bent_Domain_11_E3_frame_0.pdb -f bent_Domain_11_E3_fit_corrected.xtc -res -o ca_rmsf_bent_Domain_11_E3.xvg
+# gmx rmsf is part of G R O M A C S:
+#
+# Gnomes, ROck Monsters And Chili Sauce
+#
+@    title "RMS fluctuation"
+@    xaxis  label "Residue"
+@    yaxis  label "(nm)"
+@TYPE xy
+ 1534   0.8353
+ 1535   0.6024
+ 1536   0.4210
+ 1537   0.3054
+ 1538   0.2638
+ 1539   0.2970
+ 1540   0.4307
+ 1541   0.4558
+ 1542   0.4867
+ 1543   0.4847
+ 1544   0.4915
+ 1545   0.4479
+ 1546   0.4655
+ 1547   0.5177
+ 1548   0.4560
+ 1549   0.3934
+ 1550   0.4189
+ 1551   0.3873
+ 1552   0.4547
+ 1553   0.4810
+ 1554   0.5114
+ 1555   0.5201
+ 1556   0.5129
+ 1557   0.4855
+ 1558   0.4838
+ 1559   0.4572
+ 1560   0.4329
+ 1561   0.3750
+ 1562   0.4295
+ 1563   0.4542
+ 1564   0.4447
+ 1565   0.4237
+ 1566   0.5585
+ 1567   0.7338
+ 1568   0.9437

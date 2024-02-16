@@ -1,0 +1,103 @@
+# This file was created Mon Oct  2 21:58:15 2023
+# Created by:
+#                :-) GROMACS - gmx rmsf, 2022.5-plumed_2.8.2 (-:
+# 
+# Executable:   /uufs/chpc.utah.edu/common/home/u6048150/spack/local/builds/linux-rocky8-broadwell/gcc-11.2.0/gromacs-2022.5-db2udoeezupcayxuyfnav4ehksa2dw5w/bin/gmx
+# Data prefix:  /uufs/chpc.utah.edu/common/home/u6048150/spack/local/builds/linux-rocky8-broadwell/gcc-11.2.0/gromacs-2022.5-db2udoeezupcayxuyfnav4ehksa2dw5w
+# Working dir:  /uufs/chpc.utah.edu/common/home/u1266084/Downloads/Per Domain MD Simulation/Plot Generations/Single Domain Analysis/Domain 13 Beta T
+# Command line:
+#   gmx rmsf -s bent_Domain_13_Beta_T_frame_0.pdb -f bent_Domain_13_Beta_T_fit_corrected.xtc -res -o ca_rmsf_bent_Domain_13_Beta_T.xvg
+# gmx rmsf is part of G R O M A C S:
+#
+# Guyana Rwanda Oman Macau Angola Cameroon Senegal
+#
+@    title "RMS fluctuation"
+@    xaxis  label "Residue"
+@    yaxis  label "(nm)"
+@TYPE xy
+ 1613   0.6757
+ 1614   0.4570
+ 1615   0.2920
+ 1616   0.2082
+ 1617   0.2388
+ 1618   0.2388
+ 1619   0.1722
+ 1620   0.1819
+ 1621   0.2313
+ 1622   0.1946
+ 1623   0.1582
+ 1624   0.2221
+ 1625   0.2379
+ 1626   0.1946
+ 1627   0.2269
+ 1628   0.3310
+ 1629   0.4383
+ 1630   0.4682
+ 1631   0.6405
+ 1632   0.7505
+ 1633   0.7175
+ 1634   0.7005
+ 1635   0.6479
+ 1636   0.6848
+ 1637   0.7050
+ 1638   0.6503
+ 1639   0.4752
+ 1640   0.3784
+ 1641   0.4089
+ 1642   0.3591
+ 1643   0.2573
+ 1644   0.2488
+ 1645   0.2110
+ 1646   0.2319
+ 1647   0.2093
+ 1648   0.1844
+ 1649   0.1815
+ 1650   0.1570
+ 1651   0.1904
+ 1652   0.2244
+ 1653   0.2265
+ 1654   0.2911
+ 1655   0.3474
+ 1656   0.3922
+ 1657   0.3669
+ 1658   0.3133
+ 1659   0.2709
+ 1660   0.1864
+ 1661   0.1579
+ 1662   0.1265
+ 1663   0.1073
+ 1664   0.1199
+ 1665   0.1822
+ 1666   0.2030
+ 1667   0.2623
+ 1668   0.2927
+ 1669   0.3230
+ 1670   0.2324
+ 1671   0.2190
+ 1672   0.1827
+ 1673   0.1465
+ 1674   0.1051
+ 1675   0.0858
+ 1676   0.0911
+ 1677   0.1453
+ 1678   0.1998
+ 1679   0.3017
+ 1680   0.4070
+ 1681   0.3757
+ 1682   0.4429
+ 1683   0.4601
+ 1684   0.3585
+ 1685   0.2589
+ 1686   0.1992
+ 1687   0.1471
+ 1688   0.1110
+ 1689   0.1243
+ 1690   0.1672
+ 1691   0.2690
+ 1692   0.2060
+ 1693   0.2000
+ 1694   0.2197
+ 1695   0.2805
+ 1696   0.3107
+ 1697   0.4449
+ 1698   0.6012

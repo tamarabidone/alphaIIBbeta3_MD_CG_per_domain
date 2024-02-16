@@ -1,0 +1,61 @@
+# This file was created Wed Jan 17 23:33:35 2024
+# Created by:
+#                :-) GROMACS - gmx rmsf, 2022.5-plumed_2.8.2 (-:
+# 
+# Executable:   /uufs/chpc.utah.edu/common/home/u6048150/spack/local/builds/linux-rocky8-broadwell/gcc-11.2.0/gromacs-2022.5-db2udoeezupcayxuyfnav4ehksa2dw5w/bin/gmx
+# Data prefix:  /uufs/chpc.utah.edu/common/home/u6048150/spack/local/builds/linux-rocky8-broadwell/gcc-11.2.0/gromacs-2022.5-db2udoeezupcayxuyfnav4ehksa2dw5w
+# Working dir:  /uufs/chpc.utah.edu/common/home/bidone-group3/onkarj/bent_isolated_domains_replica_3/Domain_12_E4
+# Command line:
+#   gmx rmsf -s proteinB12.pdb -f fit_test.xtc -res -o ca_rmsf_Domain_12_E4_Replica_3.xvg
+# gmx rmsf is part of G R O M A C S:
+#
+# GRowing Old MAkes el Chrono Sweat
+#
+@    title "RMS fluctuation"
+@    xaxis  label "Residue"
+@    yaxis  label "(nm)"
+@TYPE xy
+ 1569   1.0993
+ 1570   0.9244
+ 1571   0.7793
+ 1572   0.5684
+ 1573   0.5764
+ 1574   0.4588
+ 1575   0.4566
+ 1576   0.4482
+ 1577   0.4857
+ 1578   0.6257
+ 1579   0.6043
+ 1580   0.3944
+ 1581   0.2480
+ 1582   0.1993
+ 1583   0.2312
+ 1584   0.2644
+ 1585   0.2457
+ 1586   0.2304
+ 1587   0.2135
+ 1588   0.2619
+ 1589   0.3199
+ 1590   0.3905
+ 1591   0.4809
+ 1592   0.4294
+ 1593   0.3643
+ 1594   0.2804
+ 1595   0.2547
+ 1596   0.1863
+ 1597   0.2307
+ 1598   0.1699
+ 1599   0.1966
+ 1600   0.2441
+ 1601   0.2877
+ 1602   0.2229
+ 1603   0.2767
+ 1604   0.3054
+ 1605   0.2708
+ 1606   0.1693
+ 1607   0.2315
+ 1608   0.2486
+ 1609   0.2384
+ 1610   0.3504
+ 1611   0.4589
+ 1612   0.6066

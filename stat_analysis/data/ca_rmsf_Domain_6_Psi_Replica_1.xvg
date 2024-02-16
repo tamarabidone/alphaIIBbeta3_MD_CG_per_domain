@@ -1,0 +1,74 @@
+# This file was created Mon Oct  2 21:39:37 2023
+# Created by:
+#                :-) GROMACS - gmx rmsf, 2022.5-plumed_2.8.2 (-:
+# 
+# Executable:   /uufs/chpc.utah.edu/common/home/u6048150/spack/local/builds/linux-rocky8-broadwell/gcc-11.2.0/gromacs-2022.5-db2udoeezupcayxuyfnav4ehksa2dw5w/bin/gmx
+# Data prefix:  /uufs/chpc.utah.edu/common/home/u6048150/spack/local/builds/linux-rocky8-broadwell/gcc-11.2.0/gromacs-2022.5-db2udoeezupcayxuyfnav4ehksa2dw5w
+# Working dir:  /uufs/chpc.utah.edu/common/home/u1266084/Downloads/Per Domain MD Simulation/Plot Generations/Single Domain Analysis/Domain 6 Psi
+# Command line:
+#   gmx rmsf -s bent_Domain_6_Psi_frame_0.pdb -f bent_Domain_6_Psi_fit_corrected.xtc -res -o ca_rmsf_bent_Domain_6_Psi.xvg
+# gmx rmsf is part of G R O M A C S:
+#
+# Gyas ROwers Mature At Cryogenic Speed
+#
+@    title "RMS fluctuation"
+@    xaxis  label "Residue"
+@    yaxis  label "(nm)"
+@TYPE xy
+ 1009   1.4893
+ 1010   1.3011
+ 1011   1.1014
+ 1012   0.9450
+ 1013   0.7807
+ 1014   0.6314
+ 1015   0.5746
+ 1016   0.5723
+ 1017   0.5478
+ 1018   0.4430
+ 1019   0.3944
+ 1020   0.3310
+ 1021   0.3049
+ 1022   0.3275
+ 1023   0.3052
+ 1024   0.2598
+ 1025   0.2840
+ 1026   0.3629
+ 1027   0.3814
+ 1028   0.3330
+ 1029   0.3045
+ 1030   0.2851
+ 1031   0.2368
+ 1032   0.1914
+ 1033   0.1992
+ 1034   0.1797
+ 1035   0.2693
+ 1036   0.3675
+ 1037   0.3404
+ 1038   0.3128
+ 1039   0.2725
+ 1040   0.3657
+ 1041   0.4287
+ 1042   0.4489
+ 1043   0.3592
+ 1044   0.3403
+ 1045   0.2664
+ 1046   0.2549
+ 1047   0.2650
+ 1048   0.2618
+ 1049   0.2209
+ 1050   0.2767
+ 1051   0.2871
+ 1052   0.2126
+ 1053   0.2398
+ 1054   0.3349
+ 1055   0.4165
+ 1056   0.4067
+ 1057   0.3091
+ 1058   0.3358
+ 1059   0.3662
+ 1060   0.3142
+ 1061   0.2405
+ 1062   0.1825
+ 1063   0.2278
+ 1064   0.2376
+ 1065   0.3083

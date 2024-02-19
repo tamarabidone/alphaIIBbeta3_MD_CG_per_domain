@@ -1,0 +1,1 @@
+This folder contains the bash scripts that were used to carry out MD Simulations in GROMACS. We can use these scripts in conjuction with the Protein PDB files to recreate the trajectories that were used in this study.

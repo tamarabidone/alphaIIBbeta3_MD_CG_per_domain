@@ -1,0 +1,12 @@
+rmsd_bent_and_int1/int1_beta_I_short
+rmsd_bent_and_int1/int1_E2_short
+rmsd_bent_and_int1/int1_beta_propeller_short
+rmsd_bent_and_int1/int1_E3_short
+rmsd_bent_and_int1/int1_beta_T_short
+rmsd_bent_and_int1/int1_E4_short
+rmsd_bent_and_int1/int1_calf_1_short
+rmsd_bent_and_int1/int1_hybrid_short
+rmsd_bent_and_int1/int1_calf_2_short
+rmsd_bent_and_int1/int1_psi_short
+rmsd_bent_and_int1/int1_E1_short
+rmsd_bent_and_int1/int1_thigh_short

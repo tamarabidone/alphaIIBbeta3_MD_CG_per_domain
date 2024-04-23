@@ -1,6 +1,7 @@
 with open('gyradii_p_values.txt', 'r') as gyradii:
 	original = gyradii.read().split('\n')
 	if original[-1] == '': original.pop(-1)
+	# if original[0][0] == '#': original.pop(0)
 	new = [None for _ in range(13)]
 	for element in original:
 		if element[0] == '#':

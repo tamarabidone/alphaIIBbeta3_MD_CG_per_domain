@@ -1,0 +1,12 @@
+rmsd_isolated_domains/Beta_I_average_rmsd.txt
+rmsd_isolated_domains/Calf_1_average_rmsd.txt
+rmsd_isolated_domains/E2_average_rmsd.txt
+rmsd_isolated_domains/Hybrid_average_rmsd.txt
+rmsd_isolated_domains/beta_propeller_average_rmsd.txt
+rmsd_isolated_domains/Calf_2_average_rmsd.txt
+rmsd_isolated_domains/E3_average_rmsd.txt
+rmsd_isolated_domains/Psi_average_rmsd.txt
+rmsd_isolated_domains/Beta_T_average_rmsd.txt
+rmsd_isolated_domains/E1_average_rmsd.txt
+rmsd_isolated_domains/E4_average_rmsd.txt
+rmsd_isolated_domains/thigh_average_rmsd.txt

@@ -1,0 +1,17 @@
+bent_bsasa/2_buried_sasa_bent_int_betaI-hybrid.txt
+bent_bsasa/2_buried_sasa_bent_int_psi-E1.txt
+bent_bsasa/2_buried_sasa_bent_int_beta_propeller-betaI.txt
+bent_bsasa/2_buried_sasa_bent_int_Thigh-calf_1.txt
+bent_bsasa/2_buried_sasa_bent_int_beta_propeller-Thigh.txt
+bent_bsasa/2_buried_sasa_bent_int_calf_1-calf_2.txt
+bent_bsasa/2_buried_sasa_bent_int_E1-E2.txt
+bent_bsasa/2_buried_sasa_bent_int_E2-E3.txt
+bent_bsasa/2_buried_sasa_bent_int_E3-E4.txt
+bent_bsasa/2_buried_sasa_bent_int_E4-beta_TD.txt
+bent_bsasa/2_buried_sasa_bent_int_hybrid-beta_propeller.txt
+bent_bsasa/2_buried_sasa_bent_int_hybrid-beta_TD.txt
+bent_bsasa/2_buried_sasa_bent_int_hybrid-E1.txt
+bent_bsasa/2_buried_sasa_bent_int_hybrid-E2.txt
+bent_bsasa/2_buried_sasa_bent_int_hybrid-E3.txt
+bent_bsasa/2_buried_sasa_bent_int_hybrid-E4.txt
+bent_bsasa/2_buried_sasa_bent_int_hybrid-psi.txt

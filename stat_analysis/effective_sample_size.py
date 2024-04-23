@@ -18,9 +18,12 @@ def autocorrelation(y_values):
 
 def eff_sample_size(y_values):
     a=autocorrelation(y_values)
-    taus = find_crossings(a, np.exp(-1))
-    # assert len(taus)==1, 'taus has {} elements'.format(len(taus))
-    tau = taus[0]
+    if all(np.isnan(a)):
+        tau = 1
+    else:
+        taus = find_crossings(a, np.exp(-1))
+        # assert len(taus)==1, 'taus has {} elements'.format(len(taus))
+        tau = taus[0]
     return len(y_values)//tau
 
 def ttest(mean1, mean2, std1, std2, n1, n2):

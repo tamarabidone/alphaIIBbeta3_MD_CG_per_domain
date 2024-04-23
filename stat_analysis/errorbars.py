@@ -8,8 +8,6 @@ cutoff = int(sys.argv[2])
 alpha = float(sys.argv[3])
 skip = int(sys.argv[4])
 
-# print('filename: {}; cutoff: {}, alpha={}'.format(filename, cutoff, alpha))
-
 data = np.genfromtxt(filename, skip_header=skip)
 
 if len(np.shape(data)) > 1:

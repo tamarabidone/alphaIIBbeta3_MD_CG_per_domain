@@ -30,20 +30,6 @@ python3 rmsd_rename_5.py
 python3 3sample_ttest.py rmsd_analyze_free_2_renamed.txt rmsd_analyze_bent_2_renamed.txt rmsd_analyze_int1_2_renamed.txt 0.05 > rmsd_p_values_2.txt
 # python3 rmsd_rename_2.py
 
-### PREVIOUS
-for i in $(cat rmsd_filenames.txt); do python3 errorbars.py data/"$i" 2000 0.05 18; done > rmsd_errorbars_free.txt
-python3 analyze.py rmsd_errorbars_free.txt 3 > rmsd_analyze_free.txt
-python3 rmsd_rename.py
-
-for i in $(cat rmsd_filenames_bent.txt); do python3 errorbars.py data/"$i" 20000 0.05 0; done > rmsd_errorbars_bent.txt
-python3 analyze.py rmsd_errorbars_bent.txt 1 > rmsd_analyze_bent.txt
-
-for i in $(cat rmsd_filenames_int1.txt); do python3 errorbars.py data/"$i" 20000 0.05 0; done > rmsd_errorbars_int1.txt
-python3 analyze.py rmsd_errorbars_int1.txt 1 > rmsd_analyze_int1.txt
-
-python3 3sample_ttest.py rmsd_analyze_free_renamed.txt rmsd_analyze_bent.txt rmsd_analyze_int1.txt 0.05 > rmsd_p_values.txt
-python3 rmsd_rename_2.py
-
 # RMSF
 
 python3 3sample_ttest.py rmsf_analyze_free.txt rmsf_analyze_bent.txt rmsf_analyze_int1.txt 0.05 > rmsf_p_values.txt
